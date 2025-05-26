@@ -1,0 +1,58 @@
+# === Xcode ===
+DerivedData/
+build/
+*.xcworkspace/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+.idea/
+
+# Не игнорировать основной файл проекта
+!plantify.xcodeproj/project.pbxproj
+!plantify.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+
+# Игнорировать только пользовательские данные
+plantify.xcodeproj/xcuserdata/
+
+# === SwiftPM ===
+.build/
+Packages/
+.swiftpm/
+
+# === CocoaPods ===
+Pods/
+Podfile.lock
+
+# === Carthage ===
+Carthage/
+
+# === macOS системные файлы ===
+.DS_Store
+*.swp
+*.lock
+*.log
+*.orig
+*.backup
+*.tmp
+
+# === User data ===
+*.plist~
+*.xcuserdatad/
+*.xcuserstate
+
+# === Fastlane ===
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# === Xcode Preview Cache ===
+*.canvas
+*.xcassets/*.imageset/*.DS_Store
+
+# === Testing artifacts ===
+*.xctest
+
+# === Конфиги и чувствительные данные ===
+*.env
+*.local

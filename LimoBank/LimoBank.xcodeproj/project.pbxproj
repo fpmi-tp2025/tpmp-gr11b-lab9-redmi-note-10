@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C4E9F1F22DE500A7005EB7CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E9F1D02DE500A4005EB7CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E9F1D72DE500A4005EB7CD;
+			remoteInfo = LimoBank;
+		};
+		C4E9F1FC2DE500A7005EB7CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E9F1D02DE500A4005EB7CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E9F1D72DE500A4005EB7CD;
+			remoteInfo = LimoBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4E9F1D82DE500A4005EB7CD /* LimoBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LimoBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E9F1F12DE500A7005EB7CD /* LimoBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LimoBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E9F1FB2DE500A7005EB7CD /* LimoBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LimoBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C4E9F2032DE500A7005EB7CD /* Exceptions for "LimoBank" folder in "LimoBank" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C4E9F1D72DE500A4005EB7CD /* LimoBank */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C4E9F1DA2DE500A4005EB7CD /* LimoBank */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C4E9F2032DE500A7005EB7CD /* Exceptions for "LimoBank" folder in "LimoBank" target */,
+			);
+			path = LimoBank;
+			sourceTree = "<group>";
+		};
+		C4E9F1F42DE500A7005EB7CD /* LimoBankTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LimoBankTests;
+			sourceTree = "<group>";
+		};
+		C4E9F1FE2DE500A7005EB7CD /* LimoBankUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LimoBankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E9F1D52DE500A4005EB7CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E9F1EE2DE500A7005EB7CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E9F1F82DE500A7005EB7CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4E9F1CF2DE500A4005EB7CD = {
+			isa = PBXGroup;
+			children = (
+				C4E9F1DA2DE500A4005EB7CD /* LimoBank */,
+				C4E9F1F42DE500A7005EB7CD /* LimoBankTests */,
+				C4E9F1FE2DE500A7005EB7CD /* LimoBankUITests */,
+				C4E9F1D92DE500A4005EB7CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4E9F1D92DE500A4005EB7CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E9F1D82DE500A4005EB7CD /* LimoBank.app */,
+				C4E9F1F12DE500A7005EB7CD /* LimoBankTests.xctest */,
+				C4E9F1FB2DE500A7005EB7CD /* LimoBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E9F1D72DE500A4005EB7CD /* LimoBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E9F2042DE500A7005EB7CD /* Build configuration list for PBXNativeTarget "LimoBank" */;
+			buildPhases = (
+				C4E9F1D42DE500A4005EB7CD /* Sources */,
+				C4E9F1D52DE500A4005EB7CD /* Frameworks */,
+				C4E9F1D62DE500A4005EB7CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C4E9F1DA2DE500A4005EB7CD /* LimoBank */,
+			);
+			name = LimoBank;
+			packageProductDependencies = (
+			);
+			productName = LimoBank;
+			productReference = C4E9F1D82DE500A4005EB7CD /* LimoBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4E9F1F02DE500A7005EB7CD /* LimoBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E9F2092DE500A7005EB7CD /* Build configuration list for PBXNativeTarget "LimoBankTests" */;
+			buildPhases = (
+				C4E9F1ED2DE500A7005EB7CD /* Sources */,
+				C4E9F1EE2DE500A7005EB7CD /* Frameworks */,
+				C4E9F1EF2DE500A7005EB7CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E9F1F32DE500A7005EB7CD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C4E9F1F42DE500A7005EB7CD /* LimoBankTests */,
+			);
+			name = LimoBankTests;
+			packageProductDependencies = (
+			);
+			productName = LimoBankTests;
+			productReference = C4E9F1F12DE500A7005EB7CD /* LimoBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4E9F1FA2DE500A7005EB7CD /* LimoBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E9F20C2DE500A7005EB7CD /* Build configuration list for PBXNativeTarget "LimoBankUITests" */;
+			buildPhases = (
+				C4E9F1F72DE500A7005EB7CD /* Sources */,
+				C4E9F1F82DE500A7005EB7CD /* Frameworks */,
+				C4E9F1F92DE500A7005EB7CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E9F1FD2DE500A7005EB7CD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C4E9F1FE2DE500A7005EB7CD /* LimoBankUITests */,
+			);
+			name = LimoBankUITests;
+			packageProductDependencies = (
+			);
+			productName = LimoBankUITests;
+			productReference = C4E9F1FB2DE500A7005EB7CD /* LimoBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E9F1D02DE500A4005EB7CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					C4E9F1D72DE500A4005EB7CD = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					C4E9F1F02DE500A7005EB7CD = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = C4E9F1D72DE500A4005EB7CD;
+					};
+					C4E9F1FA2DE500A7005EB7CD = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = C4E9F1D72DE500A4005EB7CD;
+					};
+				};
+			};
+			buildConfigurationList = C4E9F1D32DE500A4005EB7CD /* Build configuration list for PBXProject "LimoBank" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+				be,
+			);
+			mainGroup = C4E9F1CF2DE500A4005EB7CD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C4E9F1D92DE500A4005EB7CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E9F1D72DE500A4005EB7CD /* LimoBank */,
+				C4E9F1F02DE500A7005EB7CD /* LimoBankTests */,
+				C4E9F1FA2DE500A7005EB7CD /* LimoBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4E9F1D62DE500A4005EB7CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E9F1EF2DE500A7005EB7CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E9F1F92DE500A7005EB7CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E9F1D42DE500A4005EB7CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E9F1ED2DE500A7005EB7CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E9F1F72DE500A7005EB7CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4E9F1F32DE500A7005EB7CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E9F1D72DE500A4005EB7CD /* LimoBank */;
+			targetProxy = C4E9F1F22DE500A7005EB7CD /* PBXContainerItemProxy */;
+		};
+		C4E9F1FD2DE500A7005EB7CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E9F1D72DE500A4005EB7CD /* LimoBank */;
+			targetProxy = C4E9F1FC2DE500A7005EB7CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C4E9F2052DE500A7005EB7CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LimoBank/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "redmi-note-10.LimoBank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4E9F2062DE500A7005EB7CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LimoBank/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "redmi-note-10.LimoBank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4E9F2072DE500A7005EB7CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4E9F2082DE500A7005EB7CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4E9F20A2DE500A7005EB7CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "redmi-note-10.LimoBankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LimoBank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LimoBank";
+			};
+			name = Debug;
+		};
+		C4E9F20B2DE500A7005EB7CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "redmi-note-10.LimoBankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LimoBank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LimoBank";
+			};
+			name = Release;
+		};
+		C4E9F20D2DE500A7005EB7CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "redmi-note-10.LimoBankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LimoBank;
+			};
+			name = Debug;
+		};
+		C4E9F20E2DE500A7005EB7CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "redmi-note-10.LimoBankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LimoBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E9F1D32DE500A4005EB7CD /* Build configuration list for PBXProject "LimoBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E9F2072DE500A7005EB7CD /* Debug */,
+				C4E9F2082DE500A7005EB7CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E9F2042DE500A7005EB7CD /* Build configuration list for PBXNativeTarget "LimoBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E9F2052DE500A7005EB7CD /* Debug */,
+				C4E9F2062DE500A7005EB7CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E9F2092DE500A7005EB7CD /* Build configuration list for PBXNativeTarget "LimoBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E9F20A2DE500A7005EB7CD /* Debug */,
+				C4E9F20B2DE500A7005EB7CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E9F20C2DE500A7005EB7CD /* Build configuration list for PBXNativeTarget "LimoBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E9F20D2DE500A7005EB7CD /* Debug */,
+				C4E9F20E2DE500A7005EB7CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4E9F1D02DE500A4005EB7CD /* Project object */;
+}

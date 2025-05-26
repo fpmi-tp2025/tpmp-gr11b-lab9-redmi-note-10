@@ -1,0 +1,36 @@
+name: UI Tests
+on: [push, pull_request]
+
+jobs:
+  ui-tests:
+    runs-on: macos-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      
+    - name: Select Xcode Version
+      run: sudo xcode-select -switch /Applications/Xcode_14.2.app/Contents/Developer
+      
+    - name: Build and Test
+      run: |
+        xcodebuild test \
+          -project LimoBank.xcodeproj \
+          -scheme LimoBank \
+          -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.2' \
+          -only-testing:LimoBankUITests \
+          -resultBundlePath TestResults
+          
+    - name: Upload Test Results
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: test-results
+        path: TestResults
+        
+    - name: Upload Screenshots
+      uses: actions/upload-artifact@v3
+      if: failure()
+      with:
+        name: ui-test-screenshots
+        path: TestResults/**/*.png
