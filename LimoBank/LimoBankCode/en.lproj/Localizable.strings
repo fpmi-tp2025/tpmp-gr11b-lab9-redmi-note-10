@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  LimoBank
+
+  Created by Daniil Zharnasek on 26.05.25.
+  
+*/
+"app_name" = "LimoBank";
+"login" = "login";
+"password" = "password";
+"login_error" = "invalid login or password";
+"main_account" = "main account";
+"quick_actions" = "quick actions";
+"history" = "history";
+"accounts" = "accounts";
+"payments" = "payments";
+"profile" = "profile";
+"new_account" = "new account";
+"personal_info" = "personal information";
+"change_password" = "change password";
+"documents" = "documents";
+"ask_question" = "ask a question";
+"main_operations" = "main operations";
+"credit_arrangement" = "credit arrangement";
+"under_development" = "under development";
